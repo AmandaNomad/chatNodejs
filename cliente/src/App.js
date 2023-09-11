@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 
 
 //objeto socket es el que va apermitir enviar datos al backend
-const socket = io('http://chat-nodejs-react.onrender.com') //socket puente de coneccion entre el backend y el frontend
+const socket = io('https://chat-nodejs-react.onrender.com') //socket puente de coneccion entre el backend y el frontend
 
 function App() {
 

@@ -17,7 +17,7 @@ const __dirname = dirname(fileURLToPath (import.meta.url));
 const server = http.createServer(app) //luego se convierte a un servidor http
 const io = new SocketServer(server,{
     cors:{
-        origin: 'http://localhost:3000',
+        origin: 'https://chat-nodejs-react.onrender.com',
     },
 }); //finalmente ese servidor se le pasa como parametro al servidor de  websocket
 
